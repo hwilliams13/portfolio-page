@@ -82,7 +82,11 @@ li {
     align-items: center;
 }
 
+/* clip-path for S-diamond: polygon(0% 24.09%, 17.41% 0%, 82.59% 0%, 100% 24.09%, 50% 74.86%); */
+
 #profile-picture {
     width: 100%;
-    
+    clip-path: polygon(0% 36.09%, 17.41% 12%, 82.59% 12%, 100% 36.09%, 50% 86.86%);
+    -webkit-clip-path: polygon(0% 36.09%, 17.41% 12%, 82.59% 12%, 100% 36.09%, 50% 86.86%);
+    -moz-clip-path: polygon(0% 36.09%, 17.41% 12%, 82.59% 12%, 100% 36.09%, 50% 86.86%);
 }
