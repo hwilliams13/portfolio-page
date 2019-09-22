@@ -35,6 +35,9 @@
 .top-nav {
     width: 100%;
     height: 50%;
+    display: flex;
+    border-bottom: 10px #b71c1c solid;
+    align-items: flex-end;
 }
 
 .nav-button-holder {
@@ -55,6 +58,7 @@ li {
 .nav-button a {
     width: 100%;
     height: 100%;
+    font-size: 1.25em;
     display: flex;
     justify-content: center;
     align-items: center;
