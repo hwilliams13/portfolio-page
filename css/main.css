@@ -81,6 +81,7 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    text-decoration: none;
     color: #b71c1c;
 }
 
@@ -106,32 +107,52 @@ li {
     -moz-clip-path: polygon(0% 36.09%, 17.41% 12%, 82.59% 12%, 100% 36.09%, 50% 86.86%);
 }
 
+main {
+    width: 100%;
+}
+
 .article-section {
     width: 100%;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .article-section-collapsed {
     width: 100%;
     height: 0px;
+    position: absolute;
+    visibility: hidden;
 }
 
 .article-heading {
-    width: 100%;
     height: 100px;
+    margin: 0 auto;
+    color: #b71c1c;
 }
 
 .article-heading-collapsed {
-    width: 100%;
     height: 0px;
+    position: absolute;
+    visibility: hidden;
 }
 
 .article-paragraph {
-    width: 100%;
-    height: 500px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: justify;
+    color: #b71c1c;
 }
 
 .article-paragraph-collapsed {
-    width: 100%;
     height: 0px;
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+article p a {
+    color: #b71c1c;
+    text-decoration: none;
 }
